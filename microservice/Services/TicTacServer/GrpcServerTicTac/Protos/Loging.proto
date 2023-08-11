@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcServerTicTac.Protos";
+service ServerSideProtoService{
+	rpc GetAll (GetAllRequest) returns (GetAllResponse);
+}
+
+
+message LoggerModel {
+	int32 Id=1;
+	string MessageLogs=2;
+}
+
+message GetAllRequest {}
+
+message GetAllResponse {
+    repeated LoggerModel loggers = 1;
+}

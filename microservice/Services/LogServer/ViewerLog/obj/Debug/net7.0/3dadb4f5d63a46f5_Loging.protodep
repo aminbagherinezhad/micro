@@ -1,0 +1,2 @@
+obj\Debug\net7.0/Loging.cs \
+obj\Debug\net7.0/LogingGrpc.cs: ../../TicTacServer/GrpcServerTicTac/Protos/Loging.proto

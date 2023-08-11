@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4ADC112F-9524-455A-A41E-091BF01E7BE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogServer", "LogServer", "{D3A1C835-8A69-4272-9999-BC7D853CAB6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicTacServer", "TicTacServer", "{BADD2F8A-76AA-474D-8CAF-DDA778936EAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerTicTac.Cw", "Services\TicTacServer\ServerTicTac.Cw\ServerTicTac.Cw.csproj", "{D77FA18D-FC1B-4639-8196-85B30B0D033A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServerTicTac", "Services\TicTacServer\GrpcServerTicTac\GrpcServerTicTac.csproj", "{8C2EAF60-CCBC-423B-BC39-96733FE94858}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewerLog", "Services\LogServer\ViewerLog\ViewerLog.csproj", "{05661A2F-E424-4575-8AD9-DBC0AC07CF66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService1", "Services\TicTacServer\GrpcService1\GrpcService1.csproj", "{26D1FE3A-5ACE-477C-8694-72799B91FA3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D77FA18D-FC1B-4639-8196-85B30B0D033A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77FA18D-FC1B-4639-8196-85B30B0D033A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77FA18D-FC1B-4639-8196-85B30B0D033A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77FA18D-FC1B-4639-8196-85B30B0D033A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2EAF60-CCBC-423B-BC39-96733FE94858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2EAF60-CCBC-423B-BC39-96733FE94858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2EAF60-CCBC-423B-BC39-96733FE94858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2EAF60-CCBC-423B-BC39-96733FE94858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05661A2F-E424-4575-8AD9-DBC0AC07CF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05661A2F-E424-4575-8AD9-DBC0AC07CF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05661A2F-E424-4575-8AD9-DBC0AC07CF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05661A2F-E424-4575-8AD9-DBC0AC07CF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D1FE3A-5ACE-477C-8694-72799B91FA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D1FE3A-5ACE-477C-8694-72799B91FA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D1FE3A-5ACE-477C-8694-72799B91FA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D1FE3A-5ACE-477C-8694-72799B91FA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3A1C835-8A69-4272-9999-BC7D853CAB6A} = {4ADC112F-9524-455A-A41E-091BF01E7BE3}
+		{BADD2F8A-76AA-474D-8CAF-DDA778936EAB} = {4ADC112F-9524-455A-A41E-091BF01E7BE3}
+		{D77FA18D-FC1B-4639-8196-85B30B0D033A} = {BADD2F8A-76AA-474D-8CAF-DDA778936EAB}
+		{8C2EAF60-CCBC-423B-BC39-96733FE94858} = {BADD2F8A-76AA-474D-8CAF-DDA778936EAB}
+		{05661A2F-E424-4575-8AD9-DBC0AC07CF66} = {D3A1C835-8A69-4272-9999-BC7D853CAB6A}
+		{26D1FE3A-5ACE-477C-8694-72799B91FA3F} = {BADD2F8A-76AA-474D-8CAF-DDA778936EAB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63BBD638-45E4-4D38-A6FC-544BD096B564}
+	EndGlobalSection
+EndGlobal

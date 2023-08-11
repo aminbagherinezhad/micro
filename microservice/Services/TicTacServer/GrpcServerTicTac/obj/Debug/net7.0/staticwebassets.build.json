@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "brzUPK9k6Fvde2BIO5afljT2xBi6zO6MKgmZ73IYFRQ=",
+  "Source": "GrpcServerTicTac",
+  "BasePath": "_content/GrpcServerTicTac",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
